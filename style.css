@@ -1,10 +1,19 @@
-h3
-{
-  font-size: 25px !important;
+.btn-success:hover{
+    background-color: pink;
+    color: white;
 }
-canvas {
-  border:2px dashed fuchsia;
+h3{
+    font-size: 25px !important;
 }
-body{
-    background-image: url(mustaches.jpg);
+canvas{
+    animation-name: example;
+    animation-duration:4s;
+    animation-iteration-count:infinite ;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px pink;
+    }
+    from{box-shadow: 1px 1px 38px red;
+    }
+
 }
